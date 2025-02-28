@@ -1,0 +1,103 @@
+/* styles.css */
+
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #121212; /* Темная тема */
+}
+
+/* Стилизация заголовка */
+.header {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+}
+
+.header h1 {
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.header p {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.header nav a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Секция 'Обо мне' */
+.about {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 10px;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+/* Секция 'Проекты' */
+.projects {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 10px;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project img {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+.project h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.project p {
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.project a {
+    display: block;
+    margin-top: 10px;
+    color: #ff9800;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
